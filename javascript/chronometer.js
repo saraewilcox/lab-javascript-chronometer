@@ -8,10 +8,10 @@ class Chronometer {
     //console.log(i);
     //i++;
     this.currentTime++;
-    
-    if (this.currentTime > 3) {
-        this.currentTime(intervalId)
-    }
+    callback();
+    // if (this.currentTime > 3) {
+    //     this.currentTime(intervalId)
+    // }
   }, 1000);
 }
 //let intervalID = setInterval(callback, 2000);
